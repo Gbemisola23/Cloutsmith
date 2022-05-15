@@ -9,5 +9,19 @@
 body{
     font-family: Roboto Condensed;
     font-weight: 300;
-    background-color: white;
+    color: #333333;
+}
+
+/* headings and logo */
+
+h1, h2 {
+    font-family:  Roboto Condensed;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #252525;
+}
+
+#logo {
+    float: left;
+    font-size: 280%;
 }
