@@ -8,7 +8,7 @@
 
 body{
     font-family: Roboto Condensed;
-    font-weight: 300;
+    font-weight: 500;
     color: #333333;
 }
 
@@ -55,4 +55,34 @@ h1, h2 {
 .home {
     border-bottom: 1px solid #3a3a3a;
 }
+
+
+/* app dev image */
+#app-outer { height: 600px;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+#app-dev-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/app_dev_image.jpg') no-repeat center center;
+    background-size: cover
+}
+
+ /* animates zoom effect on loading page */
+ animation-name :  appdev-zoom;
+ animation-duration: 5s;
+ animation-fill-mode: forwards;
+)
+
+/* creates the level of zoom for hero image */
+@keyframes appdev-zoom {
+ from{
+     transform: scale(1);
+ }
+ to{
+     transform: scale(1.1);
+ }
 
