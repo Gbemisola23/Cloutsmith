@@ -57,32 +57,61 @@ h1, h2 {
 }
 
 
-/* app dev image */
-#app-outer { height: 600px;
+/* laptop image and cover text */
+#laptop-outer { height: 600px;
     width: 100%;
     overflow: hidden;
+    position:relative
 
 }
 
-#app-dev-image {
+#cover-text, #cover-text h2 {
+    color: #252525;
+}
+
+#laptop-image {
     height: 600px;
     width: 100%;
-    background: url('../images/app_dev_image.jpg') no-repeat center center;
+    background: url('../images/laptop-image.webp') no-repeat center center;
     background-size: cover
 }
 
  /* animates zoom effect on loading page */
- animation-name :  appdev-zoom;
- animation-duration: 5s;
- animation-fill-mode: forwards;
-)
+ div { animation-name :  laptop-image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+    }
+   
+   /* creates the level of zoom for laptop image */
+   @keyframes laptop-image-zoom {
+    from{
+        transform: scale(1);
+    }
+    to{
+        transform: scale(1.1);
+    }
+   }
 
-/* creates the level of zoom for hero image */
-@keyframes appdev-zoom {
- from{
-     transform: scale(1);
- }
- to{
-     transform: scale(1.1);
- }
+   #cover-text {
+    font-size: 100%;
+    font-family:  Roboto Condensed;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 40px;
+    padding-left: 10px;
+
+    background-color: #b9b0b0;
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+}
+   
+   
+
 
