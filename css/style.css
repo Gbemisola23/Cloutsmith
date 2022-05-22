@@ -139,6 +139,17 @@ h1, h2 {
     margin: 20px 0;
     font-size: 280%;
 }
+
+/* footer */
+
+footer {
+    height: 100px;
+}
+
+h4 {
+    text-align: center;
+    color: #252525;
+}
    
 
 
