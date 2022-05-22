@@ -29,7 +29,7 @@ h1, h2 {
 
 /* navigation links */
 
-#menu{
+#menu {
     font-size: 110%;
     letter-spacing: 4px;
 }
@@ -53,7 +53,7 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
-.home {
+.website {
     border-bottom: 1px solid #3a3a3a;
 }
 
@@ -92,29 +92,28 @@ h1, h2 {
 }
 
 #left-about {
-    padding-top: 30px;
-    width: 33%;
+    padding-top: 20px;
+    width: 30%;
     float: left;
-  
-}
-
-#right-about {
-    padding-top: 30px;
-    width: 33%;
-    float: right;
-    
 }
 
 #center-about {
-    width: 33%;
+    padding-top: 20px;
+    width: 30%;
     margin: 0 auto;
-    
+    float: right;
+}
+
+#right-about {
+    padding-top: 20px;
+    width: 30%;
+    float: right;
 }
 
 .left-about-heading {
     width: 60%;
     float: right;
-    line-height: 20px;
+    line-height: 24px;
     clear: both;
     margin-bottom: 50px;
 }
@@ -122,25 +121,24 @@ h1, h2 {
 .right-about-heading {
     width: 60%;
     float: left;
-    line-height: 20px;
+    line-height: 24px;
     clear: both;
     margin-bottom: 50px;
 }
 
-.right-about-heading h2 {
-    text-align: right;
+.center-about-heading {
+    width: 60%;
+    line-height: 24px;
+    margin-bottom: 50px;
 }
 
-.right-about-heading p {
-    text-align: right;
-}
+
 
 #welcome {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
 }
-   
    
 
 
