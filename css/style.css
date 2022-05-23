@@ -63,7 +63,6 @@ h1, h2 {
     width: 100%;
     overflow: hidden;
     
-
 }
 
 #cover-text, #cover-text h2 {
@@ -78,12 +77,6 @@ h1, h2 {
 }
 
  
-
-   
-
-   
-
-
 
 /* Our Services */
 
@@ -151,5 +144,12 @@ h4 {
     color: #252525;
 }
    
+/* aboutus-image */
+#aboutus-image {
+    height: 600px;
+    width: 100%;
+    background: url('../images/aboutus-image.jpeg') no-repeat center center;
+    background-size: cover;
 
+}
 
