@@ -58,16 +58,13 @@ h1, h2 {
 }
 
 
-/* laptop image and cover text */
+/* laptop image */
 #laptop-outer { height: 600px;
     width: 100%;
     overflow: hidden;
     
 }
 
-#cover-text, #cover-text h2 {
-    color: #252525;
-}
 
 #laptop-image {
     height: 600px;
@@ -77,7 +74,6 @@ h1, h2 {
 }
 
  
-
 /* Our Services */
 
 #our-services {
@@ -152,4 +148,32 @@ h4 {
     background-size: cover;
 
 }
+
+#aboutus-image-outer {
+    height: 600px;
+    width: 100%;
+    overflow: hidden;
+}
+/* who we are*/
+
+#whoweare {
+    height: 600px;
+}
+
+#whowearestyle {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 280%;
+}
+
+/* h3 text styling */
+h3 {
+    line-height: 1.5;
+    word-spacing: 10px;
+    text-align: center;
+    color: #252525;
+    display: inline-block;
+}
+
+
 
