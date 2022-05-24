@@ -130,14 +130,32 @@ h1, h2 {
     font-size: 280%;
 }
 
+
+
+/
+
 /* footer */
 
 footer {
-    height: 100px;
+    height: 150px;
 }
 
-h4 {
+
+.address-list {
     text-align: center;
+}
+
+.address-list > li {
+    width: 34%;
+    display: inline;
+    display:inline-block;
+
+}
+
+.address-list i {
+    font-size: 100%;
+    margin: 1%;
+    padding: 20;
     color: #252525;
 }
    
@@ -165,6 +183,7 @@ h4 {
     text-align: center;
     margin: 20px 0;
     font-size: 280%;
+
 }
 
 /* h3 text styling */
@@ -174,6 +193,7 @@ h3 {
     text-align: center;
     color: #252525;
    width: 90%;
+   display:inline-block;
 
 }
 
@@ -332,7 +352,7 @@ textarea{
         float: left;
         padding: 0;
     }
-
+}
    
 
 
