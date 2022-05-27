@@ -1,108 +1,129 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Cloutsmith Portfolio
 
-Welcome Gbemisola Ajebeku,
+Cloutsmith Portfolio is a website created for those who are looking to hire a web and mobile software  developer for their business. Users of this site will be able to see various services rendered, know more about the company, contact Coutsmith.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+The live website can be found here [Cloutsmith Portfolio](https://gbemisola23.github.io/Cloutsmith/index.html).
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+![responsive](https://user-images.githubusercontent.com/80278757/157774385-20d15644-0823-494f-ae1d-6276a7cf8513.png)
 
-## Gitpod Reminders
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
 
-`python3 -m http.server`
+## Features
 
-A blue button should appear to click: _Make Public_,
+* **Navigation**
+  - Fixed navigation bar includes links to Home, About and Contact sections to allow easy navigation through the page. 
+   
+  
+![navigation](https://user-images.githubusercontent.com/80278757/157774697-d9a78bc0-c8ea-4f33-9146-2790d12b46f7.png)
 
-Another blue button should appear to click: _Open Browser_.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: _Make Public_,
+* **The Header**
+  - The top left corner shows the name of the website 
+  - The right hand corner shows the Home, About and Contact section. 
+  
+![intro](https://user-images.githubusercontent.com/80278757/157774716-ebc1b4b8-5ef6-4a84-91fd-7a1a9bdedee5.png)
 
-Another blue button should appear to click: _Open Browser_.
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+* **Home Section**
+  - A brief description of the services the company renders.
+  - The mid-page contains the background image.
+  - The footer contains the company's contact detail and copyright.
+  
+  
+![projects](https://user-images.githubusercontent.com/80278757/157774772-1af914cc-979f-4c3b-9460-a8ac84333c9f.png)
 
-To log into the Heroku toolbelt CLI:
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
 
-------
+* **About Section**
+  - In this section, the user will know more about Cloutsmith.
+  - The footer contains Cloutsmith's Contact details and copyright.
+![about](https://user-images.githubusercontent.com/80278757/155027291-86677484-2db4-4d77-b331-e7f397e63e75.png)
 
-## Release History
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+* **Contact Section**
+  - A simple form that collects  Name, Email and Message for users that wants to get in touch with me.
+  - The footer contains Cloutsmith's Contact details  and copyright.
+    
+![contact](https://user-images.githubusercontent.com/80278757/155027300-62d70c6d-1949-474f-af2c-808cfcbe34dd.png)
 
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
 
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
+* **The Footer**
+  - The footer section includes Cloutsmith Contact info and copyright.
 
-**July 2 2021:** Remove extensions that are not available in Open VSX.
+  
+![footer](https://user-images.githubusercontent.com/80278757/155013571-a4a81c91-8f39-4689-8d46-5a8e2b891d63.png)
 
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
 
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
+*
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+## Testing
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+* I've tested that this page works in Chrome and Firefox (mobile and desktop versions).
+* I've confirmed that this project is responsive on all screen sizes using dev tools.
+* I confirmed by testing with users that the text of all sections is readable and easy to understand.
+* I've confirmed that the form works, requires entries in every field and the submit button works.
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+### Validator Testing
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+  * **HTML** 
+    - No errors were found when passing throught official W3C Validator.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+  * **CSS**
+    - No errors were returned when passing through the Jigsaw.
+  
+  * **Accessibility**
+    - I confirmed that the colours have enough contrast and fonts chosen are easy to read, and all links, icons and images have descriptive text for screen readers running it through Lighthouse in Chrome DevTools.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+    - **Desktop**
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+       ![lighthouse-desktop](https://user-images.githubusercontent.com/80278757/155611377-5fc53857-4da7-474d-887e-9ff30803ec9e.png)
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+    - **Mobile**
 
-------
+       ![lighthouse-mobile](https://user-images.githubusercontent.com/80278757/155611357-38f4ae37-b919-4fff-825d-3aa920aaa42f.png)
 
-## FAQ about the uptime script
 
-**Why have you added this script?**
+### User Experience 
+  * Users got confused when the link to the live site in the Portfolio project opened the same webpage in another tab. To fix this, I removed the button of this project that gives them access only to the code on GitHub. I also change the colour of the Live Site button to provide more emphasis to the code of each project.
+  * Mobile users found it difficult to read justified text. To solve, I aligned the text to the left.
+  * I fixed the navigation bar on top of the desktop version and on the bottom for mobile to guarantee that the navigations links are easier to access by small hands. 
 
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
+     
+### Bugs and Errors
 
-**How will this affect me?**
+  * **Solved**
+    - Because this site was built just using HTML and CSS and I used the action="mailto:email" attribute the form show a security error. I solved this issue by deploying in Netlify and using their built-in form handling.
+    - When I first passed through the W3C Validator all anchors elements were inside the buttons tags resulting in errors. So I removed and the errors are gone. 
+    - All colours were changed to be more accessible for those who have a visual deficiency.
+    - The images in the Portfolio section was background images using two divs and positioning, resulting in a broken style on medium and smaller screens and impossible to detect by screen readers. I've solved using Adobe Photoshop to create the image and add them to the HTML using img element and alt attribute.
+    - After implementing an arrow up button to help users goes to the top of the page I realize that the buttons don't work because I've added the id attribute in the fixed navigation. I changed the location of the id to the body element to fix the issue.
 
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
+  * **Unfixed**    
+    - No unfixed bugs.
+ 
 
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
+ 
+     
+## Deployment
 
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
+The site was deployed to Netlify pages. The steps to deploy are as follows:
+   - In the Netlify overview click on **Add new site**
+   - Choose **Import an existing project** on the dropdown menu
+   - Click on the GitHub button to connect to the Git provider
+   - Chose the repository of the project that you want to deploy
+   - Click on **Deploy site** and after a few seconds, you will have access to the URL of the deployed site.
+   - Go to **Domain settings** > **Options** > **Edit site name** to change the site name and personalize the URL.
+ 
+ The live website can be found here [Cinthia Fontoura Portfolio](https://cinthia-fontoura-portfolio.netlify.app/).
+  
+ 
+## Credits
 
-**So….?**
 
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+* Homepage banner from [https://www.pexels.com].
+* About and contact banner from [www.freepik.com<]
+* Icons from [Font Awesome](https://fontawesome.com/)
+* Fonts from [https://fonts.google.com/]
