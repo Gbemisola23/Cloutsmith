@@ -80,7 +80,7 @@ h1, h2 {
 /* Our Services */
 
 #our-services {
-    height: 600px;
+    height: 550px;
 }
 
 #left-about {
@@ -137,14 +137,14 @@ h1, h2 {
 /* footer */
 
 footer {
-    height: 80px;
+    height: 70px;
     display: block;
 }
 
 footer h4 {
     display: block;
     text-align: center;
-    margin: 20px;
+    margin: 15px;
 }
 
 .address-list {
@@ -152,7 +152,7 @@ footer h4 {
 }
 
 .address-list > li {
-    padding: 20px;
+    padding: 15px;
     display: inline;
 }
 
@@ -192,9 +192,13 @@ footer h4 {
     margin: auto;
     text-align: center;
     width: 70%;
-    
 }
 
+#Cloutsmithmission p {
+    line-height: 1.5em;
+    word-spacing: 4px;
+    padding-bottom: 20px;
+}
 
 
 /*  Contact Form */
