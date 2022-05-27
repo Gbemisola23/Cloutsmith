@@ -70,7 +70,6 @@ h1, h2 {
     
 }
 
-
 #laptop-image {
     height: 600px;
     width: 100%;
@@ -160,6 +159,7 @@ footer {
     padding: 20;
     color: #252525;
 }
+
    
 /* aboutus-image */
 #aboutus-image {
@@ -339,6 +339,26 @@ textarea{
         float: left;
         padding: 0;
     }
+}
+
+/* For medium screen sizes from 950px wide and down */
+@media screen and (max-width: 950px) {
+
+    #menu {
+        clear: left;
+        float: left;
+        margin-left: 30px;
+        margin-bottom: 20px;
+        line-height: 25px;
+    }
+}
+@media screen and (max-width: 880px){
+	.contact-box{
+		grid-template-columns: 1fr;
+	}
+	.left{
+		height: 200px;
+	}
 }
    
 
