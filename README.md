@@ -4,34 +4,26 @@ Cloutsmith Portfolio is a website created for those who are looking to hire a we
 
 The live website can be found here [Cloutsmith Portfolio](https://gbemisola23.github.io/Cloutsmith/index.html).
 
-![responsive](/images/Screenshot 2022-05-28 at 00.26.06.png)
+![responsive](/images/laptopscreenshot.png)
 
 
 
 ## Features
 
-* **Navigation**
-  - Fixed navigation bar includes links to Home, About and Contact sections to allow easy navigation through the page. 
-   
-  
-![navigation](https://user-images.githubusercontent.com/80278757/157774697-d9a78bc0-c8ea-4f33-9146-2790d12b46f7.png)
-
-
-
 * **The Header**
   - The top left corner shows the name of the website 
   - The right hand corner shows the Home, About and Contact section. 
   
-![intro](https://user-images.githubusercontent.com/80278757/157774716-ebc1b4b8-5ef6-4a84-91fd-7a1a9bdedee5.png)
+![intro]
 
 
-* **Home Section**
+* **Our Services Section**
   - A brief description of the services the company renders.
   - The mid-page contains the background image.
   - The footer contains the company's contact detail and copyright.
   
   
-![projects](https://user-images.githubusercontent.com/80278757/157774772-1af914cc-979f-4c3b-9460-a8ac84333c9f.png)
+![Our Services](https://user-images.githubusercontent.com/80278757/157774772-1af914cc-979f-4c3b-9460-a8ac84333c9f.png)
 
 
 
