@@ -69,7 +69,7 @@ The live website can be found here [Cloutsmith Portfolio](https://gbemisola23.gi
 ### Validator Testing
 
   * **HTML** 
-    - No errors were found when passing throught official W3C Validator.
+    - No errors were found when passing through official W3C Validator.
 
   * **CSS**
     - No errors were returned when passing through the Jigsaw.
