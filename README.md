@@ -4,9 +4,6 @@ Cloutsmith Portfolio is a website created for those who are looking to hire a we
 
 The live website can be found here [Cloutsmith Portfolio](https://gbemisola23.github.io/Cloutsmith/index.html).
 
-![responsive](/images/laptopscreenshot.png)
-
-
 
 ## Features
 
@@ -14,7 +11,8 @@ The live website can be found here [Cloutsmith Portfolio](https://gbemisola23.gi
   - The top left corner shows the name of the website 
   - The right hand corner shows the Home, About and Contact section. 
   
-![intro]
+![intro](/images/laptopscreenshot.png)
+
 
 
 * **Our Services Section**
