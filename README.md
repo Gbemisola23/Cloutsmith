@@ -11,18 +11,14 @@ The live website can be found here [Cloutsmith Portfolio](https://gbemisola23.gi
 * **The Header**
   - The top left corner shows the name of the website 
   - The right hand corner shows the Home, About and Contact section. 
-  
+ 
 ![intro](/images/laptopscreenshot.png)
-
-
 
 * **Our Services Section**
   - A brief description of the services the company renders.
   - The mid-page contains the background image.
   - The footer contains the company's contact detail and copyright.
   
-  
-![Our Services]
 
 * **About Section**
   - In this section, the user will know more about Cloutsmith.
@@ -40,11 +36,9 @@ The live website can be found here [Cloutsmith Portfolio](https://gbemisola23.gi
 * **The Footer**
   - The footer section includes Cloutsmith Contact info and copyright.
 
-  
+ 
 ![footer](images/Footer-screenshot.png)
 
-
-*
 
 
 ## Testing
@@ -61,6 +55,7 @@ The live website can be found here [Cloutsmith Portfolio](https://gbemisola23.gi
 
   * **CSS**
     - No errors were returned when passing through the Jigsaw.
+    ![css] (images/cssjigsaw.png)
   
 
   * **Unfixed**    
