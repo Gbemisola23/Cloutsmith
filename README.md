@@ -52,10 +52,10 @@ The live website can be found here [Cloutsmith Portfolio](https://gbemisola23.gi
 
   * **HTML** 
     - No errors were found when passing through official W3C Validator.
-
+![checker](images/checker-screenshot.png)
   * **CSS**
     - No errors were returned when passing through the Jigsaw.
-    ![css] (images/cssjigsaw.png)
+    ![css](images/cssjigsaw.png)
   
 
   * **Unfixed**    
