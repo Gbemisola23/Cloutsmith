@@ -62,17 +62,14 @@ h1, h2 {
 
 
 /* laptop image */
-#laptop-outer { height: 600px;
-    width: 100%;
-    overflow: hidden;
-    
-}
+
 
 #laptop-image {
     height: 600px;
     width: 100%;
     background: url('../images/laptop-image.webp') no-repeat center center;
     background-size: cover;
+    overflow: hidden;
 }
 
  
@@ -284,14 +281,12 @@ textarea{
 }
 
 
-
 /* Media queries */
 
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #our-services {
-        width: 65%;
-        height: 1200px;
+        height: 900px;
         margin: 0 auto;
     }
 
