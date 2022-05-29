@@ -46,7 +46,7 @@ The live website can be found here [Cloutsmith Portfolio](https://gbemisola23.gi
 * I've tested that this page works in Chrome and Firefox (mobile and desktop versions).
 * I've confirmed that this project is responsive on all screen sizes using dev tools.
 * I confirmed by testing with users that the text of all sections is readable and easy to understand.
-* I've confirmed that the form works, requires entries in every field and the submit button works.
+
 
 ### Validator Testing
 
@@ -55,7 +55,7 @@ The live website can be found here [Cloutsmith Portfolio](https://gbemisola23.gi
 ![checker](images/checker-screenshot.png)
   * **CSS**
     - No errors were returned when passing through the Jigsaw.
-    ![css](images/cssjigsaw.png)
+    ![css](images/jigsaw.png)
   
 
   * **Unfixed**    
@@ -68,10 +68,13 @@ The live website can be found here [Cloutsmith Portfolio](https://gbemisola23.gi
 
 The site was deployed to Github. The steps to deploy are as follows:
    - Credits
-- In the GitHub repository, navigate to the Settings tab
-- From the source section drop-down menu, select the Master Branch
-- Once the master branch has been selected,it provides a link to the webpage.
-The live link can be found here:
+- In the GitHub repository, navigate to the Settings tab.
+- Select 'Settings' from the navigation bar near the top of the page.
+- Select 'Pages' from the sidebar on the left of the page.
+- From the source section drop-down menu, select the Master Branch.
+- Once selected, click the 'Save' button to the right of the dropdown menu.
+- Deployment should be confirmed by a message on a green background - The message should have a green tick mark followed by "Your site is published at" followed by the web address.
+- Confirm deployment by navigating to the displayed web address.
 
  The live website can be found here; [Cloutsmith Portfolio](https://gbemisola23.github.io/Cloutsmith/index.html).
   
