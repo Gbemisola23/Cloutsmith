@@ -43,9 +43,10 @@ The live website can be found here [Cloutsmith Portfolio](https://gbemisola23.gi
 
 ## Testing
 
-* I've tested that this page works in Chrome and Firefox (mobile and desktop versions).
-* I've confirmed that this project is responsive on all screen sizes using dev tools.
+* I've tested that this page doesn't work fully well in Firefox (mobile and desktop versions).
+* I've confirmed that this project is not completely responsive on all screen sizes using dev tools.
 * I confirmed by testing with users that the text of all sections is readable and easy to understand.
+![responsiveness](images/performance.png)
 
 
 ### Validator Testing
@@ -60,8 +61,6 @@ The live website can be found here [Cloutsmith Portfolio](https://gbemisola23.gi
 
   * **Unfixed**    
     - No unfixed bugs.
- 
-
  
      
 ## Deployment
@@ -88,3 +87,4 @@ The site was deployed to Github. The steps to deploy are as follows:
 * Fonts from [https://fonts.google.com/]
 * Some of the code for the Home and About were from the "Love Running" project.
 * The code for the contact form were from True Coder on Youtube.
+* Text gotten from Cloutsmith.com.
