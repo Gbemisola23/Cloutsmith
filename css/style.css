@@ -286,6 +286,7 @@ textarea{
 /* For larger to medium screens size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
     #our-services {
+        width: 65%;
         height: 900px;
         margin: 0 auto;
     }
@@ -324,8 +325,37 @@ textarea{
         margin-bottom: 20px;
         line-height: 25px;
     }
+    #laptop-image {
+        left: 0%;
+    }
+
+    #our-services {
+        width: 100%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-about-heading, .right-about-heading {
+        width: inherit;
+    }
+
+    .left-about-heading h2, .right-about-heading h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-about-heading p, .right-about-heading p {
+        text-align: center;
+        padding: 0 30px;
+    }
 }
+
+}
+
+/* For smaller screen sizes from 880px */
 @media screen and (max-width: 880px){
+
+
 	.contact-box{
 		grid-template-columns: 1fr;
 	}
